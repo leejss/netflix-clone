@@ -2,7 +2,7 @@ import axios from "../api/axios";
 import React, { useEffect, useState } from "react";
 import SwiperRow from "../components/SwiperRow";
 
-const SwiperRowContainer = ({ fetchUrl, title }) => {
+const SwiperRowContainer = ({ fetchUrl, title, isLarge }) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -15,8 +15,9 @@ const SwiperRowContainer = ({ fetchUrl, title }) => {
   }, [fetchUrl]);
 
   if (movies.length < 20) return null;
-  console.log(movies.length);
-
+  if (isLarge) {
+    return <SwiperRow movies={movies} title={title} isLarge />;
+  }
   return <SwiperRow movies={movies} title={title} />;
 };
 

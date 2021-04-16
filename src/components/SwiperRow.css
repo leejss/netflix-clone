@@ -1,3 +1,11 @@
+.row {
+  margin-left: 20px;
+}
+
+.row h2 {
+  color: #fff;
+}
+
 .swiper-wrapper {
   display: flex;
 }
@@ -8,6 +16,10 @@
   transition: transform 450ms;
   cursor: pointer;
   object-fit: contain;
+}
+
+.swiper-slide img.isLarge {
+  max-height: 300px;
 }
 
 .swiper-slide img:hover {
