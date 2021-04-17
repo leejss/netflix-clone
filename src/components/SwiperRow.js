@@ -12,7 +12,7 @@ const SwiperRow = ({ movies, title, isLarge }) => {
         {movies.map((movie) => (
           <SwiperSlide key={movie.id}>
             <img
-              className={`${isLarge && "isLarge"}`}
+              className={`${isLarge ? "isLarge" : ""}`}
               src={`${img_base_url}${
                 isLarge ? movie.poster_path : movie.backdrop_path
               }`}

@@ -3,7 +3,7 @@ import requests from "../api/requsets";
 import BannerContainer from "../containers/BannerContainer";
 import SwiperRowContainer from "../containers/SwiperRowContainer";
 import "./HomeScreen.css";
-import Nav from "./Nav";
+import Nav from "../components/Nav";
 
 const HomeScreen = () => {
   return (

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-wrapper {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.login-card {
+  position: relative;
+  top: 91px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding-top: 60px;
+  padding-left: 68px;
+  padding-right: 68px;
+  padding-bottom: 40px;
+  border-radius: 4px;
+}
+
+/* .login-card-form {
+} */
+
+.login-card-form > h1 {
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.login-card-form > input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.login-card-form > button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  margin: 24px 0 12px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.siginInScreen__message {
+  font-weight: 400;
+}
+
+.siginInScreen__link {
+  color: #fff;
+  text-decoration: none;
+}
+.siginInScreen__link:hover {
+  text-decoration: underline;
+}
+
+.siginInScreen__gray {
+  color: #737373;
+  font-size: 1rem;
+}

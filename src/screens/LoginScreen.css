@@ -1,0 +1,129 @@
+.loginScreen {
+  position: relative;
+  width: 100%;
+}
+
+.loginScreen__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/180ca992-4d7b-4274-99be-cf8169176af2/KR-ko-20210322-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+}
+.loginScreen__gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0px,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen__header {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  top: 0;
+  z-index: 2;
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 200px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.loginScreen__card__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginScreen__card {
+  position: relative;
+  width: 100%;
+  max-width: 840px;
+  text-align: center;
+  z-index: 100;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.loginScreen__card > h1 {
+  font-size: 4rem;
+}
+
+.loginScreen__card > h2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.loginScreen__card > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.loginScreen__input__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.loginScreen__input__email {
+  padding: 10px;
+  padding-bottom: 0;
+  outline: none;
+  height: 100%;
+  width: 800px;
+  border: none;
+  max-width: 600px;
+  flex-grow: 3;
+}
+
+.loginScreen__input__button {
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  height: 100%;
+  background: #f40612;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.loginScreen__input__button > span {
+  color: #fff;
+  font-size: 1.875rem;
+}

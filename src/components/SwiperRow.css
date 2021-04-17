@@ -4,6 +4,8 @@
 
 .row h2 {
   color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .swiper-wrapper {
@@ -23,6 +25,6 @@
 }
 
 .swiper-slide img:hover {
-  transform: scale(1.08);
+  transform: scale(1.09);
   opacity: 1;
 }
