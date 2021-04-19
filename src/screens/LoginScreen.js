@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./LoginScreen.css";
 import SignInScreen from "./SignInScreen";
 
@@ -11,11 +12,13 @@ const LoginScreen = () => {
       <div className="loginScreen__gradient" />
 
       <header className="loginScreen__header">
-        <img
-          className="loginScreen__logo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt="logo"
-        />
+        <Link to="/">
+          <img
+            className="loginScreen__logo"
+            src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+            alt="logo"
+          />
+        </Link>
         <button
           onClick={() => {
             setSignIn(true);
@@ -57,7 +60,6 @@ const LoginScreen = () => {
                   </button>
                 </div>
               </form>
-              
             </div>
           </div>
         )}
