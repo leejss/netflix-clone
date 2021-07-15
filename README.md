@@ -1,28 +1,50 @@
-<!-- # Netflix Clone Project
-
-[배포 페이지](https://netflix-clone-fc895.web.app) -->
-
-<h1 align="center">Welcome to Netflix Clone 👋</h1>
-<p>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="#about-the-project">
+    <img src="./netflix.jpg" alt="Logo" width="80" height="80">
+  </a>
+  <p align="center">
+    Netflix clone
+    <br />
+    <a href="https://netflix-clone-fc895.web.app/">View Demo</a>
+  </p>
 </p>
 
-> A Netflix home page clone coding
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Author
+<!-- ABOUT THE PROJECT -->
 
-👤 **Lee Jongseo**
+## About The Project
 
-* Website: https://leejss.github.io/
-* Github: [@leejss](https://github.com/leejss)
+[![Screenshot1][product-screenshot1]](https://example.com)
+[![Screenshot2][product-screenshot2]](https://example.com)
 
-## Demo URL
+[Netflix 홈페이지](https://www.netflix.com/kr/)를 클론 코딩한 프로젝트입니다. TMDB API를 통해서 영화 데이터를 가져왔고, React와 CSS를 이용하여 화면을 구성했습니다. Swiper 라이브러리를 통해서 슬라이드를 만들었습니다. 로그인/로그아웃은 Firebase의 Authentication 서비스를 이용하였습니다. 그 외 유저에 대한 상태 정보 저장은 Redux를 사용했습니다.
 
-<a href="https://netflix-clone-fc895.web.app" target="_blank">Demo Site</a>
+### Built With
 
-## Skills
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Firebase](https://firebase.google.com/)
+- [TMDB API](https://developers.themoviedb.org/3)
+- [Swiper](https://swiperjs.com/react)
 
-<h3 align="left">Languages and Tools:</h3>
+## Contact
 
-<p align="left"> 
-<a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
-</p>
+Lee Jongseo - goldemshine@gmail.com
+
+[product-screenshot1]: ./screen1.PNG
+[product-screenshot2]: ./screen2.PNG
